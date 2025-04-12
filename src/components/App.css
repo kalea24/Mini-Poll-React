@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f2; /* Light pink background */
+  color: #333; /* Dark text for contrast */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ff69b4; /* Hot pink for the title */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ff87ab; /* Slightly lighter pink for the leader */
+  margin-top: 30px;
+}
+
+/* Poll Option Styles */
+.poll-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.poll-option span {
+  margin-right: 20px;
+}
+
+.poll-option button {
+  background-color: #ffb6c1; /* Pastel pink button */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.poll-option button:hover {
+  background-color: #ff69b4; /* Hot pink on hover */
+}
